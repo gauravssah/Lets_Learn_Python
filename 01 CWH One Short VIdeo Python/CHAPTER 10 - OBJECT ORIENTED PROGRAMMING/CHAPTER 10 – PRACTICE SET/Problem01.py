@@ -2,6 +2,8 @@
 # working at Microsoft.
 
 class Programmer:
+    Company = "Microsoft"
+    
     def __init__(self, name, JobType, salery, lan, filed):
         self.name = name
         self.jobType = JobType
@@ -15,6 +17,7 @@ class Programmer:
         print(f"Salery: {self.salery}")
         print(f"Working Language: {self.language}")
         print(f"Working Field: {self.field}")
+        print(f"Working Company: {self.Company}")
         
 
 employ1 = Programmer("Gaurav Sah", "Tech", "12000000", "Python", "Ai Ml Eng.")

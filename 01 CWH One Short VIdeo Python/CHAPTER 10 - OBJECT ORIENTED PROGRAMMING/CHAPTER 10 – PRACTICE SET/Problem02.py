@@ -12,11 +12,11 @@ class Calculator:
         return self.num*self.num*self.num
     
     def squareRoot(self):
-        return self.num
+        return self.num**0.5
 
 
-obj = Calculator(5)
-print(obj.square())
-print(obj.cube())
-print(obj.squareRoot())
+obj = Calculator(25)
+print("Square: ",obj.square())
+print("Cube: ",obj.cube())
+print("Square Root: ",obj.squareRoot())
 
