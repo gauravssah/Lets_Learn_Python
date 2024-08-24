@@ -1,0 +1,7 @@
+# Ignore virtual environment folders
+.venv/
+
+# Ignore Python bytecode cache
+__pycache__/
+
+# Add any other files or directories you want to ignore
